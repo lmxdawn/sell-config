@@ -1,0 +1,10 @@
+zuul:
+  # 自定义路由规则
+  routes:
+    product: /myProdcut/**
+  # 禁止访问的列表
+  ignored-patterns:
+    - /**/product/listForOrder
+management:
+  cloudfoundry:
+    enabled: false

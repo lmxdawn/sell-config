@@ -6,6 +6,11 @@ zuul:
       serviceId: product
       # 不过滤 cookie 及一些敏感头
       sensitiveHeaders:
+    mysss:
+      path: /mysss/**
+      serviceId: product
+      # 不过滤 cookie 及一些敏感头
+      sensitiveHeaders:
     # 简写
 #    product: /myProdcut/**
   # 禁止访问的列表
